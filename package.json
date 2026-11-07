@@ -1,0 +1,14 @@
+{
+  "name": "qunhuibao-ui-checks",
+  "private": true,
+  "description": "Development-only DOM checks for the offline group report",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0"
+  },
+  "dependencies": {
+    "html2canvas": "1.4.1"
+  }
+}

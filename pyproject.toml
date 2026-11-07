@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68,<81"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qunhuibao"
+version = "1.0.0a1"
+description = "Local evidence-linked group chat reports"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+qunhuibao = "qunhuibao.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["qunhuibao*"]
+
+[tool.setuptools.package-data]
+qunhuibao = ["assets/*"]

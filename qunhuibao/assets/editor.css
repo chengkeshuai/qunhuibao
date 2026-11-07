@@ -1,0 +1,19 @@
+.edit-field{display:block;font-weight:650;margin:16px 0}.edit-field input,.edit-field textarea,.edit-field select{display:block;width:100%;margin-top:8px;padding:12px;border:1px solid #cfc6bd;border-radius:10px;background:#fff;color:#222;font:inherit;font-weight:400}.edit-field textarea{line-height:1.7;resize:vertical}.edit-actions{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0}.edit-actions button,.file-button{border:1px solid #d6c9bd;background:white;color:#643a1d;border-radius:9px;padding:11px 16px;font:inherit;cursor:pointer}.edit-actions button:hover{border-color:#ee7526;background:#fff1e6}.file-button input{display:block;max-width:220px;font-size:12px;margin-top:5px}.edit-card{background:#fff;border:1px solid #e8ddd3;border-radius:16px;padding:22px;margin:20px 0}.edit-card.excluded{border-style:dashed;background:#f8f4ee}.edit-card h3{margin:8px 0}.edit-source{margin:12px 0;padding:12px 16px;border-left:3px solid #ef873f;background:#fff8ef;white-space:pre-wrap;overflow-wrap:anywhere}.edit-source label{display:block;font-size:13px}.edit-source p{margin:8px 0}.edit-source small{color:#6e6259}.edit-badge{color:#965024;font-size:13px}.edit-actions button:disabled{opacity:.4;cursor:default}#save-status,#share-status{color:#70421e}#share-preview{width:100%;height:850px;background:white;border:1px solid #d7c8ba;border-radius:12px;margin-top:20px}.share-body{white-space:pre-wrap;overflow-wrap:anywhere}.share-card{scroll-margin-top:20px}.share-search{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}.share-search input{padding:12px;font:inherit;flex:1;min-width:180px}.share-search button,.share-word{padding:10px;border:1px solid #dec5b2;border-radius:8px;background:#fff5eb;color:#6a3c1e;cursor:pointer}.share-hit{outline:3px solid #e7792b}mark{background:#ffe0ab;color:#34230f}input[type=checkbox]{width:18px;height:18px;vertical-align:middle;margin-right:6px}.learning-details{border-top:1px solid #e8ddd3;margin-top:14px;padding-top:10px}.learning-details p{white-space:pre-wrap}@media(max-width:600px){.edit-card{padding:15px}.edit-actions>*{max-width:100%}#share-preview{height:650px}}@media print{.share-search,.share-word{display:none}}
+
+/* Review/share covers have one content column, unlike the report cover. */
+.workbench-page .hero,.share-page .hero{display:block;padding:36px 40px}
+.workbench-page .hero h1,.share-page .hero h1{font-size:38px;line-height:1.35;max-width:850px}
+.workbench-page .brand-logo,.share-page .brand-logo{width:270px;max-width:65%;height:auto;flex-shrink:1}
+.workbench-page .wrap,.share-page .wrap{width:100%;max-width:1120px;min-width:0}
+.workbench-page .brand-header,.share-page .brand-header{min-width:0;gap:16px}
+.workbench-page .hero-copy>p:not(.lead):not(.meta),.share-page .hero-copy>p:not(.lead):not(.meta){font-size:13px;line-height:1.8;color:#827267}
+.share-page .edit-card h3{font-size:23px;line-height:1.5;margin:10px 0 18px;color:#392b22}
+.share-page .share-body{font-size:16px;line-height:1.95}
+.share-page .share-search{padding:18px;background:#fff8f0;border:1px solid #eedfd4;border-radius:12px;align-items:center}
+.share-page .share-search input{min-width:0;width:100%;border:1px solid #decbbc;border-radius:8px}
+.share-page #share-results{flex-basis:100%;margin:0;padding:0;list-style:none}
+.share-page #share-results:empty{display:none}
+.share-page #share-results button{width:100%;text-align:left;line-height:1.65}
+.share-page nav[aria-label="话题入口"]{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 30px}
+.share-page .learning-details:empty{display:none}
+@media(max-width:620px){.workbench-page .wrap,.share-page .wrap{padding:20px 16px 40px}.workbench-page .hero,.share-page .hero{padding:24px 22px}.workbench-page .hero h1,.share-page .hero h1{font-size:28px}.workbench-page .brand-logo,.share-page .brand-logo{width:210px;max-width:65%}.workbench-page .brand-header>span,.share-page .brand-header>span{font-size:10px;max-width:90px}.share-page .edit-card h3{font-size:21px}}

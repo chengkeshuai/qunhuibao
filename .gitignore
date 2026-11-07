@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/
+.env
+.env.*
+inputs/
+outputs/
+delivery/
+*.db
+*.sqlite*
+*.log
+.coverage
+.pytest_cache/
+node_modules/
+
+# Local operations and private planning records
+AGENTS.md
+automation/
+docs/*
+!docs/quickstart.md
+!docs/contract.md
+*credential*.json
+*token*.json

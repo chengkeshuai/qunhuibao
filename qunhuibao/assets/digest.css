@@ -1,0 +1,51 @@
+/* Card geometry follows delivery-overview/assets/delivery-layout.css: 10px radius, 22px padding, #EEDFD4 border, orange top edge for primary cards.
+   Reading features only. Visual source: tongcheng-proposal.css (2026-11-02).
+   Keep the approved orange/light cover, numbered navigation and typography. */
+.share-page .hero{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(240px,1fr);gap:36px;padding:40px}
+.share-page .edition-mark{font-size:16px;color:#756254;text-align:right;line-height:1.7}.share-page .edition-mark b{display:block;color:#514136;font-weight:600}
+.share-page .hero-aside{border-left:1px solid #ead6c6;padding-left:28px;display:flex;flex-direction:column;justify-content:center}
+.share-page .hero-aside>small{font-size:12px;color:#99765c;margin-bottom:8px}
+.share-page .hero-aside a{position:relative;padding:15px 0 15px 44px;border-bottom:1px solid #edddcf;color:#332a23;text-decoration:none;font-size:16px;line-height:1.8}
+.share-page .hero-aside a:last-child{border-bottom:0}.share-page .hero-aside a>span{position:absolute;left:0;top:18px;color:#c86423;background:#ffead9;border-radius:50%;width:30px;height:30px;display:grid;place-items:center;font-size:13px;font-weight:600}
+.share-page .edition-summary{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:26px}.share-page .edition-summary p{font-size:12px;color:#827267;max-width:390px;margin:0}
+.share-page .edition-stats{display:flex;gap:24px;flex-shrink:0}.share-page .edition-stats span{font-size:13px;color:#827267}.share-page .edition-stats b{font-size:26px;color:#b94c00;margin-right:7px}
+.share-page .share-search input::-webkit-search-cancel-button{display:none}
+.share-page #share-clear{height:44px;min-width:72px;padding:0 17px;border:1px solid #dec5b2;background:#fff1e6;color:#9c4409;font-size:14px;font-weight:600;border-radius:8px;flex-shrink:0}.share-page #share-clear:hover{background:#ffead9;border-color:#ff6a00}
+.share-page #share-results{max-height:260px;overflow:auto}
+.share-page .topic-map{padding:22px 25px;margin:0 0 30px;background:linear-gradient(120deg,#fffaf5,#fff);border:1px solid #f2ddca;border-radius:12px}
+.share-page .topic-map-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px}.share-page .topic-map-head strong{font-size:18px;color:#9c4409}.share-page .topic-map-head small{font-size:11px;color:#99765c}
+.share-page nav[aria-label="话题入口"]{align-items:center;justify-content:center;gap:7px 14px;margin:16px 0 0}
+.share-page .share-word{border:0;background:transparent;color:#a94b0c;font-size:16px;padding:5px 7px;line-height:1.45;min-height:38px}.share-page .share-word[data-weight="2"]{font-size:22px;color:#7c5c42}.share-page .share-word[data-weight="3"]{font-size:28px;color:#bf682a;font-weight:600}.share-page .share-word:hover{background:#fff0df;color:#8e3600}
+.share-page .report-section{padding:0;border-top:0;margin:0 0 46px;scroll-margin-top:20px}.share-page .digest-section-heading{display:flex;align-items:baseline;gap:14px;border-bottom:2px solid #eedfd4;padding-bottom:12px;margin:38px 0 22px}.share-page .digest-section-heading>span{font-size:20px;color:#e85d00;font-weight:500}.share-page .digest-section-heading h2{border:0;margin:0;padding:0;font-size:24px;line-height:1.5;color:#1f1f1f}.share-page .digest-section-heading small{margin-left:auto;font-size:12px;color:#827267}
+.share-page .topics-grid,.share-page .questions-grid{display:grid;gap:20px}.share-page .edit-card{margin:0;min-width:0;box-shadow:none;background:#fff;border:1px solid #eedfd4;border-radius:10px;padding:22px}.share-page .topic-entry{border:1px solid #eedfd4;border-top:3px solid #ff6a00;border-radius:10px;padding:20px 24px 24px}
+.share-page .entry-kicker{display:flex;align-items:center;gap:10px;margin:0 0 9px}.share-page .entry-no{font-size:18px;color:#c86423;font-weight:600}
+.share-page .entry-authors{font-size:13px;color:#827267;margin:0 0 16px}.share-page .entry-authors b{color:#756254;font-weight:500}
+.share-page .story-grid{display:block}.share-page .share-body{margin:0}
+.share-page .entry-notes{margin-top:18px;padding:14px 0 0;border:0;border-top:1px solid #f3eae3;border-radius:0;background:transparent;font-size:13px;line-height:1.85;color:#827267}.share-page .entry-notes>div+div{margin-top:6px;padding-top:0;border-top:0}.share-page .entry-notes strong{display:inline;color:#756254;font-weight:600;margin-right:8px}.share-page .entry-notes p{display:inline;margin:0;white-space:pre-wrap}
+.share-page .qa-answer{margin-top:14px;padding:0;background:transparent;border:0;font-size:15px}.share-page .qa-answer p{margin:5px 0;white-space:pre-wrap}.share-page .qa-answer b{color:#9c4409}
+.share-page .learning-steps{margin:14px 0 0;padding-left:22px;font-size:15px}.share-page .learning-steps li{white-space:pre-wrap}
+.share-page .entry-quotes{display:block;margin-top:22px;padding:0 0 0 14px;border-left:2px solid #f1ded0}.share-page .edit-source{margin:0;padding:8px 0;border:0;background:transparent;white-space:normal}
+.share-page .quote-person{display:flex;align-items:center;gap:12px;font-size:12px;color:#756254}.share-page .quote-avatar{display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:#ffead9;color:#c86423;flex-shrink:0}.share-page .quote-person time{margin-left:0;color:#827267;font-size:11px}.share-page .edit-source p{margin:4px 0 0;font-size:14px;color:#514136;white-space:pre-wrap}
+.share-page .resources-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.share-page .resource-entry{border:1px solid #eedfd4;border-radius:10px;padding:22px}.share-page .resource-entry h3,.share-page .question-entry h3{font-size:21px}.share-page .resource-entry .story-grid,.share-page .question-entry .story-grid{display:block}.share-page .resource-entry .entry-notes,.share-page .question-entry .entry-notes{margin-top:14px}.share-page .question-entry{background:#fffaf7;border:1px solid #eedfd4;border-radius:10px;padding:22px}
+.share-page .report-footer{margin-top:30px}.share-page .footer-brand{display:flex;justify-content:space-between;gap:12px;font-size:13px;color:#9c4409}.share-page .report-footer p{font-size:12px}
+@media(max-width:900px){.share-page .hero{padding:30px;gap:24px}.share-page .hero-aside{padding-left:18px}.share-page .story-grid{grid-template-columns:1fr}.share-page .edition-summary{align-items:flex-start;flex-direction:column}}
+@media(max-width:620px){.share-page .hero{grid-template-columns:1fr;padding:28px 22px}.share-page .hero-aside{border-left:0;border-top:1px solid #ead6c6;padding:10px 0 0}.share-page .hero-aside a{padding-top:10px;padding-bottom:10px}.share-page .hero-aside a>span{top:13px}.share-page .edition-mark{font-size:13px;max-width:130px}.share-page .edition-stats{gap:16px}.share-page .edition-stats b{font-size:23px}.share-page .share-search{gap:7px;padding:12px}.share-page .share-search label{display:none}.share-page #share-clear{min-width:64px;padding:0 12px}.share-page .topic-map{padding:17px 14px}.share-page .topic-map-head{align-items:flex-start;flex-direction:column;gap:3px}.share-page .digest-section-heading{flex-wrap:wrap;gap:8px}.share-page .digest-section-heading>span{font-size:22px}.share-page .digest-section-heading small{flex-basis:100%;margin:0}.share-page .resources-grid,.share-page .entry-quotes{grid-template-columns:1fr}.share-page .share-body{font-size:15px}}
+@media print{.share-page .digest-nav,.share-page .share-search{display:none}.share-page .report-section{break-before:auto}.share-page .edit-card{break-inside:avoid}.share-page .hero{padding:24px;grid-template-columns:1.5fr 1fr}.share-page .hero h1{font-size:30pt}.share-page .resources-grid{grid-template-columns:1fr 1fr}}
+
+/* Group identity is primary; topic headline and supporting evidence are secondary. */
+.share-page .group-title{overflow-wrap:anywhere}
+.share-page .hero .issue-title{font-size:22px;line-height:1.55;font-weight:600;color:#9c4409;margin:18px 0 0}
+.share-page .hero .lead{font-size:15px;margin-top:14px}
+.share-page .entry-kicker .edit-badge{display:none}
+.share-page .entry-authors{font-size:12px;margin-bottom:16px}
+.share-page .topic-entry h3{font-size:23px;line-height:1.55;color:#1f1f1f;margin:0 0 12px}
+.share-page .topic-entry .entry-no{font-size:12px;color:#a64500;font-weight:600}
+.share-page .reader-actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin:-22px 0 24px}
+.share-page .reader-actions button{min-height:44px;border:1px solid #e9e1da;background:white;border-radius:8px;padding:8px 14px;font:inherit;font-size:13px;color:#756254;cursor:pointer}
+.share-page .reader-actions button:hover{border-color:#ff6a00;background:#fffaf7}
+.share-page #reader-status{font-size:12px;color:#827267}
+.share-page .copy-fallback{flex-basis:100%;width:100%;min-height:140px;padding:12px;border:1px solid #e9e1da;font:inherit;font-size:14px}
+@media(max-width:620px){.share-page .hero .issue-title{font-size:18px}.share-page .topic-entry h3{font-size:21px}.share-page .topic-entry,.share-page .resource-entry,.share-page .question-entry{padding:18px}.share-page .topic-entry{padding-top:16px}.share-page .resources-grid{grid-template-columns:1fr}.share-page .reader-actions{margin-top:-20px}}
+@media print{.share-page .reader-actions{display:none!important}}
+
+.share-page .topic-entry .qa-answer{font-size:14px;color:#756254;line-height:1.85;margin-top:14px}

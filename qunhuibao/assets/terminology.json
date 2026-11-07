@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "maintenance": "群汇报术语映射唯一正式源；仅收录用户已确认的别名和适用语境。整理输出为本次核对快照，不是第二份可编辑词库。",
+  "rules": [
+    {
+      "id": "chatcut-video-editing-20261106",
+      "canonical": "ChatCut",
+      "aliases": ["Chat put"],
+      "status": "confirmed",
+      "confidence": "high",
+      "action": "normalize_summary_and_search",
+      "confirmed_by": "用户2026-11-06群汇报试用反馈",
+      "scope": "仅视频剪辑工具讨论；原消息与source_digest不修改，不做通用put到cut替换。",
+      "context": {
+        "message_radius": 2,
+        "character_radius": 160,
+        "max_gap_seconds": 600,
+        "non_product_prefixes": ["please", "can you", "could you", "let us", "let's"],
+        "non_product_suffixes": ["this", "that", "it", "the", "a", "an", "me", "my", "your", "our"],
+        "any": ["剪辑", "剪映", "视频编辑", "剪片", "混剪", "视频切片", "直播切片", "切片工具", "视频制作", "video editing", "video editor", "clip editing"],
+        "exclude": ["不是剪辑", "并非剪辑", "无关剪辑", "与剪辑无关", "不是软件名", "不是工具名", "普通英语", "英语练习", "英文句子", "聊天接口", "聊天协议", "聊天服务", "聊天机器人", "HTTP PUT", "数据库", "代码变量", "游戏名", "游戏角色", "另一个产品", "另一个软件"]
+      }
+    }
+  ]
+}
